@@ -10,4 +10,5 @@ class lapangan extends Model
 {
     use HasFactory;
     protected $table ='lapangan';
+    public $timestamps = false;
 }
